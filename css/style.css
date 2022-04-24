@@ -1,0 +1,43 @@
+.bg {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    z-index:-1;
+    animation: fadeIn 0.5s linear;
+}
+
+.hidden {
+    display: none;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: white;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -3px 20px rgba(255,255,255,0.4);
+}
+
+#greeting {
+    color: white; 
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -3px 20px rgba(255,255,255,0.4);
+}
+
+#login-form{
+    text-align:center;
+}
+
+#do-form, #do-list, #weather{
+    text-align:center;
+    color: white; 
+}
+
+
+
